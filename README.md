@@ -1,13 +1,13 @@
 ## Simple reconstruction of Bert and tokenizer for educational purposes
 
-# Example:
+### Example:
 
-''' python
+```python
      bert = Bert(nhead, nlayer, dim_size, hid_dim, vocabsize, dropout)
      input_ids = torch.randint(0, vocabsize, (2, 10))
      atention_mask = torch.ones(2, 10)
      output = bert(input_ids, atention_mask)
-'''
+```
 
 where,
 *   nhead - number of heads in multihead attention
